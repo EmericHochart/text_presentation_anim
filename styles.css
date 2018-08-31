@@ -22,4 +22,12 @@
     .opening span:nth-child(4n-3) {
                     animation-delay: 0s;
                                 }
+    @keyframes animateOpen {
+        from {opacity:1;}
+        to {opacity:0;}
+    }
+    @keyframes flash {
+        from {text-shadow: 0 0 32px white}
+        to {text-shadow: 0 0 0 white}
+    }
 }
